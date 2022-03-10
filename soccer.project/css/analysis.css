@@ -1,0 +1,22 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.anal-all {
+    width: 1000px;
+    height: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.anal-bottom {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.playerPage {
+    text-align: right;
+}

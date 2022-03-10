@@ -1,0 +1,12 @@
+a{
+	color: black;
+}
+#dropdownMenu-team:hover{
+	background-color: #BCD68D;
+}
+#right{
+	float: right;
+}
+#left{
+	float: left;
+}

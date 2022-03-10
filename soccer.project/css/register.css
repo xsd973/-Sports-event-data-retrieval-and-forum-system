@@ -1,0 +1,118 @@
+/* 注册样式 */
+
+.regi-all {
+    float: right;
+    margin-right: 50px;
+    width: 520px;
+    height: 500px;
+    text-align: center;
+    padding: 10px 60px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(109, 109, 109, 0.4);
+    border-radius: 15px;
+    box-shadow: inset 0 1px 1px 1px rgba(109, 109, 109, 0.4);
+    text-shadow: 0px 1px 1px rgb(172, 173, 172);
+}
+
+.regi-bg {
+    background-image: url("../images/itgqmehgzqj.jpg");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+}
+
+.regi-word {
+    float: left;
+    margin-left: 250px;
+}
+
+.regi-input {
+    box-sizing: border-box;
+    margin-left: 5px;
+    padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 320px;
+    color: #000;
+    margin-top: 15px;
+}
+
+.regi-input:hover {
+    border: 1px solid rgb(145, 145, 145);
+    transition: all 0.5s ease 0s;
+}
+
+.regi-input:focus {
+    border-style: solid;
+    border-color: #169427;
+    box-shadow: 0 0 2px #0e9c3d;
+}
+
+.regi-input-pove {
+    box-sizing: border-box;
+    padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 184px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.regi-input-pove:hover {
+    border: 1px solid rgb(145, 145, 145);
+    transition: all 0.5s ease 0s;
+}
+
+.regi-input-pove:focus {
+    border-style: solid;
+    border-color: #169427;
+    box-shadow: 0 0 2px #0e9c3d;
+}
+
+.regi-input-code {
+    box-sizing: border-box;
+    padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 126px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.regi-input-code:hover {
+    background-color: #57ad68;
+    transition: all 0.5s ease 0s;
+    box-shadow: 0 0 5px #0e9c3d;
+    color: #fff
+}
+
+.regi-btn {
+    width: 380px;
+    height: 44px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    border: 1px solid rgba(120, 188, 133, 0.5);
+    background-color: rgba(120, 188, 133, 0.8);
+    border-radius: 25px;
+    transition: 0.8s;
+    cursor: pointer;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 20px;
+}
+
+.regi-btn:hover {
+    background-color: #57ad68;
+    color: #ffffff;
+}

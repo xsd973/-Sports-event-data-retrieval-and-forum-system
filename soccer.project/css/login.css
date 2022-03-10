@@ -1,0 +1,174 @@
+/* 登录样式 */
+
+.login-all {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login-input1 {
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 30px;
+    text-align: left
+}
+
+.login-input2 {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: left
+}
+
+.login-input1 input {
+    width: 300px;
+    height: 44px;
+    border: 1px solid;
+    color: #333;
+    border-color: #b9b9b9;
+    box-sizing: border-box;
+    padding-left: 15px;
+    border-radius: 4px;
+    transition: 0.8s;
+}
+
+.login-input1 input:hover {
+    border: 1px solid rgb(97, 97, 97);
+    transition: all 0.5s ease 0s;
+}
+
+.login-input1 input:focus {
+    border-style: solid;
+    border-color: #169427;
+    box-shadow: 0 0 2px #0e9c3d;
+}
+
+.login-input2 input {
+    width: 300px;
+    height: 44px;
+    border: 1px solid;
+    color: #333;
+    border-color: #c0c0c0;
+    box-sizing: border-box;
+    padding-left: 15px;
+    border-radius: 4px;
+    transition: 0.8s;
+}
+
+.login-input2 input:hover {
+    border: 1px solid rgb(94, 94, 94);
+    transition: all 0.5s ease 0s;
+}
+
+.login-input2 input:focus {
+    border-style: solid;
+    border-color: #169427;
+    box-shadow: 0 0 2px #0e9c3d;
+}
+
+.login-auto {
+    margin-top: 30px;
+    float: left;
+    font-weight: 100;
+    color: rgb(139, 138, 138);
+    font-size: 13px;
+}
+
+.login-btn {
+    width: 300px;
+    height: 44px;
+    color: #57ad68;
+    font-size: 14px;
+    font-weight: 200;
+    border: 1px solid rgba(120, 188, 133, 0.5);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    transition: 0.8s;
+    cursor: pointer;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 70px;
+}
+
+.login-btn:hover {
+    background-color: #57ad68;
+    color: #ffffff;
+}
+
+.forget-psw {
+    width: 270px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.forget-psw a {
+    color: #ccc;
+    padding-top: 20px;
+}
+
+.forget-psw a:hover {
+    color: #57ad68;
+    transition: all 0.5s ease 0s;
+}
+
+.login-others-way {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 300px;
+    height: 30px;
+}
+
+.login-others-word {
+    float: left;
+    color: rgb(129, 129, 129);
+    font-size: 14px;
+    margin-top: 10px
+}
+
+.login-others-way .share-cpt {
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.share-cpt>div {
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.share-cpt .share-sina {
+    background-image: url("../images/foot-sinaH.png");
+}
+
+.share-cpt .share-sina:hover {
+    background: #DE2126 url("../images/foot-sinaH.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.share-cpt .share-wechat {
+    background-image: url("../images/foot-wechatH.png");
+}
+
+.share-cpt .share-wechat:hover {
+    background: rgb(68, 157, 68) url("../images/foot-wechatH.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.share-cpt .share-qq {
+    background-image: url("../images/qq.png");
+}
+
+.share-cpt .share-qq:hover {
+    background: rgb(26, 129, 194) url("../images/qq.png");
+    background-size: cover;
+    border-radius: 50%;
+}
